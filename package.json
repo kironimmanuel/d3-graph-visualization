@@ -1,0 +1,17 @@
+{
+    "name": "d3-graph-visualization",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "concurrently \"tsc -w\" \"lite-server --port 3000\"",
+        "postinstall": "tsc"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "concurrently": "^8.2.2",
+        "lite-server": "^2.6.1"
+    }
+}
